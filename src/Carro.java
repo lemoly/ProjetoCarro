@@ -15,12 +15,15 @@ public class Carro {
     int marcha_atual;
 
     void acerela(){
+
         Velocidade_atual += 1;
     }
     void freia(){
+
         Velocidade_atual = 0;
     }
     void  trocarMarcha(int marcha){
+
         n_Marcas = marcha;
     }
     void reduzirMarcha(){
